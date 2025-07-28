@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Twitch Latency Regulator
 // @namespace    https://www.twitch.tv/pauloman182
-// @version      1.0.2
+// @version      1.0.0
 // @description  Régule le buffer pour optimiser la latence, affiche la latence diffuseur, panneau de contrôle, playbackRate affiché et graphique
 // @author       pauloman182
 // @match        https://www.twitch.tv/*
