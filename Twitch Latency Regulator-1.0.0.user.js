@@ -251,6 +251,8 @@
             const latencyElement = document.querySelector("p[aria-label='Latence diffuseur']");
             if (latencyElement) {
                 latencyLabel.textContent = `Latence diffuseur : ${latencyElement.textContent}`;
+            }else {
+                return;
             }
 
             const bufferedEnd = video.buffered.end(video.buffered.length - 1);
